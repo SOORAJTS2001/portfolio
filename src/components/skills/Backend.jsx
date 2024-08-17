@@ -10,22 +10,22 @@ const Backend = () => {
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">Java</h3>
-                        <span className="skills__level">Basic</span>
+                        <h3 className="skills__name">Python</h3>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">SpringBoot</h3>
-                        <span className="skills__level">Basic</span>
+                        <h3 className="skills__name">FastAPI</h3>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">MySQL</h3>
-                        <span className="skills__level">Basic</span>
+                        <h3 className="skills__name">Django</h3>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
             </div>
@@ -33,8 +33,8 @@ const Backend = () => {
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">npm</h3>
-                        <span className="skills__level">Basic</span>
+                        <h3 className="skills__name">MongoDB</h3>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
                 <div className="skills__data">

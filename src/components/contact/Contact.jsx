@@ -27,7 +27,7 @@ const Contact = () => {
                         <HiOutlineMail className="contact__card-icon" />
                         
                         <h3 className="contact__card-title">Email</h3>
-                        <span className="contact__card-data">cyphrsylph@gmail.com</span>
+                        <span className="contact__card-data">sjts007@gmail.com</span>
                         
                         <a href="mailto:cyphersylph@gmail.com" className="contact__button">
                             Write Me{" "} 
@@ -43,17 +43,17 @@ const Contact = () => {
                 <form ref={form} onSubmit={sendEmail} className="contact__form">
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Name</label>
-                        <input type="text" name="name" className="contact__form-input" placeholder="Type your name" />
+                        <input type="text" name="name" className="contact__form-input" placeholder="What was your name?" />
                     </div>
 
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Email</label>
-                        <input type="email" name="email" className="contact__form-input" placeholder="Type your email" />
+                        <input type="email" name="email" className="contact__form-input" placeholder="Your email please" />
                     </div>
 
                     <div className="contact__form-div contact__form-area">
-                        <label className="contact__form-tag">Project</label>
-                        <textarea name="project" cols="30" rows="10" className="contact__form-input" placeholder="Provide some project details..."></textarea>
+                        <label className="contact__form-tag">Query</label>
+                        <textarea name="project" cols="30" rows="10" className="contact__form-input" placeholder="What's the topic!"></textarea>
                     </div>
 
                     <button href="#contact" className="button button--flex">
