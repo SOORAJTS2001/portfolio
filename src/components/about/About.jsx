@@ -14,7 +14,7 @@ const About = () => {
             <div className="about__data">
                 <Info />
                 <p className="about__description">
-                    I create applications highlighting minimal design and friendly UI/UX interfaces.
+                    I work as a Backend Developer at Strollby Inc!
                 </p>
                 <a download="" href={CV} className="button button--flex">
                     Download CV
